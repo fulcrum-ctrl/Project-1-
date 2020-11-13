@@ -12,14 +12,14 @@
     background-color: black;
 }
 
-.innerHeader{
-    width:1000px;
-    height:100%;
-    display: block;
-    margin: 0 auto;
-    background-color: blue;
-}
-
 .aboutText{
     color:white;
+}
+
+.content{
+    text-align: center;
+}
+
+.buttonsArea{
+    text-align: center;
 }
