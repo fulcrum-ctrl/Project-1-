@@ -38,6 +38,7 @@ section:nth-child(even) {
 ul li a {
     color: rgb(50, 55, 63);
     text-decoration: underline;
+    text-transform: capitalize;
 }
 
 ul {
@@ -57,3 +58,7 @@ ul li a:hover {
     height: 38px;
     padding: 0;
 }
+
+/* .distance {
+
+} */
