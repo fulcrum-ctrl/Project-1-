@@ -33,7 +33,7 @@ function getDesc(toSearch) {
 } 
 
 
-console.log(getDesc("University+of+Waterloo"));
+console.log(getDesc("foundation+for+international"));
 
 
 // json.query.pages["7955325"].extract;
