@@ -1,7 +1,6 @@
-
 html {
     scroll-behavior: smooth;
-  }
+}
 
 .w3-red {
     background-color: hsl(0, 72%, 30%) !important;
@@ -23,13 +22,12 @@ section:not(:last-child) {
 
 section:nth-child(even) {
     background-color: lightGrey;
-} 
+}
 
 #get-help .button-group a {
     display: inline-block !important;
     width: 11.5em;
 }
-
 
 #get-help article h3.right {
     border-radius: 0 8px 8px 0;
@@ -46,7 +44,7 @@ ul {
 }
 
 ul li a:hover {
-    color:  hsl(0, 72%, 30%);
+    color: hsl(0, 72%, 30%);
 }
 
 .w3-modal-content {
