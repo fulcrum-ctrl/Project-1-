@@ -166,30 +166,30 @@ giveTimeBtn.addEventListener("click", function() {
     createListItem(giveTimeList, volunteerSection);
 });
 
-function getUserLocation() {
-    navigator.geolocation.getCurrentPosition(positionFound, positionNotFound(),{timeout: 3000})
+function getUserLocation()  {
+  if(!navigator.geolocation) {
+    //retrieveCharitiesByLocation("Boston", "MA");
+  } else {
+    navigator.geolocation.getCurrentPosition(positionFound, positionNotFound);
+  }
 }
 
 // if the position is found (e.g. the user accepts)
-function positionFound(){
-    if (position.coords) {
-        localStorage.setItem("Geo Accuracy", position.coords.accuracy);
-        localStorage.setItem("User Latitude", position.coords.latitude);
-        localStorage.setItem("User Longitude", position.coords.longitude);
-    } else {
-        getUserLocation();
-    }
+function positionFound(position){
+    localStorage.setItem("Geo Accuracy", position.coords.accuracy);
+    localStorage.setItem("User Latitude", position.coords.latitude);
+    localStorage.setItem("User Longitude", position.coords.longitude);
 }
 
 // if the position is not found!!!!
 // this is where the code for user input would go
 function positionNotFound() {
+    // create modal to get user input, see *createModal()*
 }
 
 // code to initialize application
 function initApplication() {
-    if (!localStorage.getItem("Geo Accuracy")) {
     getUserLocation();
-    }
 }
+
 
