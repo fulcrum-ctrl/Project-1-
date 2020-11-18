@@ -25,6 +25,7 @@ APIs used include:
 <a name="visuals"></a>
 ## 2. Visuals
 One visual example of the functionality
+
 ![Visual](visual.gif)
 
 <a name="deployed"></a>
