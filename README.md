@@ -30,7 +30,7 @@ One visual example of the functionality
 
 <a name="deployed"></a>
 ## 3. Deployed Webpage
-[The deployed site](#), hosted by GitHub Pages.
+[The deployed site](https://fulcrum-ctrl.github.io/Project-1-/), hosted by GitHub Pages.
 
 <a name="support"></a>
 ## 4. Support
